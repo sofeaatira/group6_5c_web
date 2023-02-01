@@ -1,0 +1,494 @@
+
+   body
+   {
+    background-image: url(https://i.pinimg.com/564x/3b/30/b6/3b30b6bc5b1a89ce7857999dd0672ef0.jpg);
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+   }
+      
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    .navbar
+    {
+        width: 100%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 100px;
+        position: fixed;
+        background: linear-gradient(burlywood, rgb(118, 65,8));
+    }
+
+    .logo img
+    {
+        width: 300px;
+        height: 50px;
+        margin-top: 1%;
+        padding-left: 10px;
+        float: left;
+        cursor: pointer;
+    }
+
+    .menu
+    {
+        width: 400px;
+        height: 70px;
+        float: left;
+    }
+
+    .menu ul
+    {
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu ul li 
+    {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .menu ul li a 
+    {
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 0px 30px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .menu ul li a:hover
+    {
+        color: antiquewhite;
+        transition: all 0.4s ease 0s;
+    }
+
+    .search
+    {
+        width: 330px;
+        float: right;
+        margin-right: 100px;
+    }
+
+    .srch
+    {
+        font-family: 'Times New Roman', Times, serif;
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid palevioletred;
+        margin-top: 13px;
+        color: beige;
+        border-right: none;
+        font-size: 16px;
+        float: right;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .btn
+    {
+        width: 100px; 
+        height: 40px;
+        background: palevioletred;
+        border: 2px solid palevioletred;
+        margin-top: 13px;
+        color: beige;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .btn:focus
+    {
+        outline: none;
+    }
+    .srch:focus
+    {
+        outline: none;
+    }
+
+
+
+    .content
+    {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        color: black;
+        position: relative;
+    } 
+
+  .content .par
+  {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+  }
+
+  .content h1
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+  }
+
+ .form
+ {
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(to top, black 50%, black 50%);
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+    border-radius: 10px;
+    padding: 25px;
+ }
+
+ .form h2
+ {
+    width: 220px;
+    font-family: sans-serif ;
+    text-align: center;
+    color: firebrick;
+    font-size: 22px;
+    background-color: honeydew;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+ }
+
+ .form input
+ {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid palevioletred;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: bisque;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+ }
+
+ .form input:focus
+ {
+    outline: none;
+ }
+
+ ::placeholder
+ {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .btnn
+ {
+    width: 240px;
+    height: 40px;
+    background: palevioletred;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+ }
+
+ .btnn:hover
+ {
+    background: gainsboro;
+    color: palevioletred;
+ }
+
+  .btnn a
+  {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .form .link
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .form .link a
+  {
+    text-decoration: none;
+    color: palevioletred;
+  }
+
+  .liw
+  {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+
+
+section
+{
+    font-size: 12pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-left: 50px;
+    margin-top: 2%;
+}
+
+.about h1
+{
+    text-align: center;
+}
+.img-ptar
+{
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 2%;
+}
+
+.about .par
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+   text-align: justify;
+}
+
+.collection h1
+{
+    text-align: center;
+}
+
+.physical 
+{
+    float:left;
+    width: 60%;
+    height: 400px;
+    padding-left: 200px;
+   
+}
+
+.digital 
+{
+    float: left;
+    width: 30%;
+    height: 400px;
+    
+}
+
+.contact h1
+{
+    text-align: center;
+}
+
+.information 
+{
+    float:left;
+    width: 60%;
+    height: 400px;
+    padding-left: 200px;
+   
+}
+
+.conform
+{
+    float: left;
+    width: 30%;
+    height: 400px;
+    
+}
+
+.service h1
+{
+    text-align: center;
+}
+
+.wrapper
+{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.wrapper h1{
+    text-align: center;
+}
+
+.wrapper .our_team
+{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.wrapper .our_team .team_member
+{
+    width: 300px;
+    margin: 5px;
+    background: whitesmoke;
+    padding: 60px 50px;
+}
+
+.wrapper .our_team .team_member .member_img
+{
+    background: whitesmoke;
+    max-width: 200px;
+    width: 200%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.wrapper .our_team .team_member .member_img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .our_team .team_member h3
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0;
+}
+
+.wrapper .our_team .team_member span
+{
+    font-size: 14px;
+}
+
+.wrapper .our_team .team_member p
+{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.outer-footer
+{
+    padding: 10px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 18px;
+    background-color: linear-gradient(burlywood, rgb(118, 65,8));;
+}
+
+
+       
+        div.menu
+        {
+            float:left;
+            height: 200px;
+            width: 75%;
+           
+        }
+
+        div.slider
+        {
+            float:left;
+            width: 100%;
+            height: 650px;
+            background-color: burlywood;
+            text-align: center;
+            padding-top: 300px;
+        }
+
+        div.kotak1
+        {
+            float:left;
+            width: 25%;
+            height: 400px;
+            background-color: mediumorchid;
+        }
+
+        div.kotak2
+        {
+            float:left;
+            width: 25%;
+            height: 400px;
+            background-color: brown;
+        }
+
+        div.kotak3
+        {
+            float:left;
+            width: 25%;
+            height: 400px;
+            background-color: indigo;
+        }
+
+        div.kotak4
+        {
+            float:left;
+            width: 25%;
+            height: 400px;
+            background-color: peru;
+        }
+
+        div.content
+        {
+            float:left;
+            width: 100%;
+            height: 500px;
+            
+        }
+
+        div.copyright
+        {
+            float:left;
+            width: 100%;
+            height: 80px;
+            background-color: cornsilk;
+        }
+
+        ul
+        {
+            list-style-type: square;
+        }
+
+        ol
+        {
+            list-style-type: lower-alpha;
+        
+
+        }
+        a
+        {
+            text-decoration: none;
+        }
+
+
+
+
+
+
